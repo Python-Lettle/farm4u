@@ -21,7 +21,7 @@ import java.util.Date;
 @TableName("player")
 public class Player {
 
-    @TableId(value="player_id", type = IdType.AUTO)
+    @TableId(value="playerId", type = IdType.AUTO)
     int id;
 
     String username;

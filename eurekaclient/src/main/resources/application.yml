@@ -5,9 +5,9 @@ spring:
     name: playercenter    # 当前服务注册在 Eureka Server 上的名字
   # 数据库配置
   datasource:
-    username: MPCDSEPC
-    password: bCHzbS2DTxxXm8Ni
-    url: jdbc:mysql://xayytech.com:3306/mpcdsepc
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/farm4u
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
     host: 162.14.110.70
